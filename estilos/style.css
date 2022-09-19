@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    size: 10px;
 }
 .form-inline{
     height: 3rem;
@@ -8,7 +9,8 @@ body{
 }
 .form-control{
     padding-left: 20rem;
-    height: 1.9rem;
+    height: 1.9rem; 
+
 }
 .cabecera{
     background-color: #4a6da7;
@@ -58,9 +60,41 @@ h6{
     background-color: #4a6da7;
     border-color: #4a6da7;
 }
-
-.card-footer{
-    bottom: 0;
+#doc-title {
+    padding-bottom: 5px;
+    display: none;
+}
+.arreglosCarritos{
+    height: 40rem;
+    width: 63rem;
+}
+.planillaCarritos{
+    height: 30rem;
+    width: 76rem;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+.btn-carrito{
+        width: 33.33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.badge{
+    background-color: #4a6da7;
+    color: white;
+}
+.btn-carrito:hover{
+    background-color: aliceblue;
+    color: green;
+    border-color: green;
+}
+.planilla{
+    height: 20rem;
+    width: 20.7rem;
+    margin-left: 40%;
 }
 
 @media (max-width: 992px) {
