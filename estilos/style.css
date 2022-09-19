@@ -91,11 +91,19 @@ h6{
     color: green;
     border-color: green;
 }
-.planilla{
-    height: 20rem;
-    width: 20.7rem;
-    margin-left: 40%;
+#planillaLimpieza{
+    width: 22.7rem;
+    height: 23rem;
+    
 }
+.img-carrito {
+    display: block;
+    margin: 0 auto;
+    max-height: 24rem;
+    max-width: 100%;
+    width: 100%;
+    
+  }
 
 @media (max-width: 992px) {
     .carousel{
