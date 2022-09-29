@@ -48,7 +48,7 @@ function mostrarArreglos(arreglos) {
                   <td>${arreglos[i].nombredelpublicador}</td>
                   <td>${arreglos[i].carritoqueseutilizara}</td>
                   <td>${arreglos[i].horarioderetiro}</td>
-                  <td>${arreglos[i].horariodedevolucion}</td>
+                  <td>${arreglos[i].horariodedevolucion2}</td>
                   <td>${arreglos[i].dondeestara}</td>
                </tr>`;
     }
