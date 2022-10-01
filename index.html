@@ -76,7 +76,7 @@
 
     <main>
       <div class="card text-center">
-        <div class="card-header"><h3>Septiembre 2022</h3></div>
+        <div class="card-header"><h3>Octubre 2022</h3></div>
         <div class="card-body">
           <h5 class="card-title">No te olvides de enviar tu informe!</h5>
           <p class="card-text">Podes hacerlo desde el siguiente link</p>
@@ -87,6 +87,21 @@
             >Completar formulario
           </a>
         </div>
+        <div class="alert alert-primary" role="alert">
+          Los grupos encargados de la limpieza en la proxima reunion son: Grupos 2 y 5.
+        </div>
+        <div class="container" >   
+          <form>
+            <button id="btn-search" class="btn-oculto btn btn-primary my-2">Buscar</button>
+            <button id="btn-clear" class="btn-oculto btn btn-secondary my-2">Limpiar</button>
+          </form>  
+          <div class="row justify-content-center align-items-center">
+            <div class="cont-clim col-auto text-center">
+              <div id="result" class="alert alert-primary"></div>
+            </div>
+          </div>
+        </div>
+    
       </div>
     
       <br><br><br>
@@ -147,9 +162,7 @@
         </div>
       </div>
       <br><br>
-      <div class="alert alert-primary" role="alert">
-        Los grupos encargados de la limpieza en la proxima reunion son: Grupos 4 y 1.
-      </div>
+      
     </main>
 
     <footer class="text-center text-lg-start">
@@ -159,6 +172,7 @@
       </div>
     </footer>
   </body>
+  <script src="./js/app-fecha.js"></script>
   <script src="./js/api-clima.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -175,5 +189,4 @@
     integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
     crossorigin="anonymous"
   ></script>
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>
