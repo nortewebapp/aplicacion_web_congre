@@ -29,9 +29,9 @@ function mostrarArreglos(arreglos) {
   <a href="https://walink.co/e6d76a" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block mb-1" target="_blank">Si necesitas ayuda para reservar el carrito hace click aca!</button></a>  
 
   <br>
-  <h4>SEMANA DE 03/10/2022</h4>
-  <table id="tabla" class="table table-responsive table-bordered table-striped ">
-                  <thead>
+  <h4>SEMANA DE 10/10/2022</h4>
+  <table id="tabla" class="table table-bordered table-striped thead-dark ">
+                  <thead class='thead-dark'>
                       <tr>
                           <th>Dia</th>
                           <th>Hermano asignado</th>
