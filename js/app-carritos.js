@@ -27,7 +27,7 @@ function mostrarArreglos(arreglos) {
 
   <br>
   <div class="container">
-        <h4 class="text-center">Semana del 31/10/2022</h4>
+        <h4 class="text-center">Semana del 07/11/2022</h4>
         <table class="table">
             
             <thead>
@@ -51,7 +51,7 @@ function mostrarArreglos(arreglos) {
                   <td data-label="Horario de Retiro">${arreglos[i].horarioderetiro}</td>
                   <td data-label="Horario de devolucion">${arreglos[i].horariodedevolucion2}</td>
                   <td data-label="Ubicacion">${arreglos[i].dondeestara}</td>
-               </tr>`;
+                </tr>`;
     }
   
     html += `   </tbody>
