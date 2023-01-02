@@ -1,4 +1,4 @@
-fetch("https://app.sheetlabs.com/CONO/reservaCarritos" , {
+fetch("https://app.sheetlabs.com/CONO/reservaCarritosseg" , {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -27,7 +27,7 @@ function mostrarArreglos(arreglos) {
 
   <br>
   <div class="container">
-        <h4 class="text-center">Semana del 26/12/2022</h4>
+        <h4 class="text-center">Semana del 02/01/2023</h4>
         <table class="table">
             
             <thead>
