@@ -38,7 +38,6 @@ const getWeatherData = (position) => {
 
 const getWeatherDataByRegion = (region) => {
   const url = `https://api.openweathermap.org/data/2.5/find?q=${region}&appid=${API_KEY}&units=metric`;
-
   fetch(url)
     .then((response) => {
       return response.json();
