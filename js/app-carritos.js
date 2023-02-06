@@ -45,7 +45,7 @@ function mostrarArreglos(arreglos) {
   for (let i = 0; i < arreglos.length; i++){
   
       html += `<tr> 
-                  <td data-label="Dia">${arreglos[i].dia.slice(2,7)}</td>
+                  <td data-label="Dia">${arreglos[i].dia.slice(2,)}</td>
                   <td data-label="Hermano asignado">${arreglos[i].nombredelpublicador}</td>
                   <td data-label="Carrito">${arreglos[i].carritoqueseutilizara}</td>
                   <td data-label="Horario de Retiro">${arreglos[i].horarioderetiro}</td>
