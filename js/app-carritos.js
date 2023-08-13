@@ -27,7 +27,11 @@ function mostrarArreglos(arreglos) {
 
   <br>
   <div class="container">
+<<<<<<< HEAD
         <h4 class="text-center">Semana del 14/08/2023</h4>
+=======
+        <h4 class="text-center">Semana del 07/08/2023</h4>
+>>>>>>> 211873f2ea900fdfcec7777847721df871a337cf
         <table class="table">
             
             <thead>
